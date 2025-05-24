@@ -7,8 +7,6 @@ License:      GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html  
 Tags:         performance
 
-Prints script modules at wp_footer instead of at wp_head to improve performance by reducing network contention for the critical rendering path. Only relevant for block themes.
-
 ## Description ##
 
 Prints script modules at `wp_footer` instead of at `wp_head` to improve performance by reducing network contention for the critical rendering path. This can be used with [Script Fetch Priority Low](https://github.com/westonruter/script-modules-in-footer) to improve performance even more. This is only relevant for block themes.

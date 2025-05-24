@@ -27,7 +27,7 @@ if ( isset( $_GET['disable_print_script_modules_in_footer'] ) ) { // phpcs:ignor
 // Note that WP_Script_Modules::add_hooks() is called at after_setup_theme priority 10, so this is why priority 11 is used.
 add_action(
 	'after_setup_theme',
-	static function () {
+	static function (): void {
 		// Only relevant for block themes.
 		if ( ! wp_is_block_theme() ) {
 			return;

@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Script Modules in Footer
- * Plugin URI: https://gist.github.com/westonruter/5acba7cb904b546fad41f5ca741ecf31
- * Description: Prints script modules at <code>wp_footer</code> instead of at <code>wp_head</code> to improve performance by reducing network contention for the critical rendering path. This can be used with <a href="...">Script Fetch Priority Low</a> to improve performance even more. Only relevant for block themes.
+ * Plugin URI: https://github.com/westonruter/script-modules-in-footer
+ * Description: Prints script modules at <code>wp_footer</code> instead of at <code>wp_head</code> to improve performance by reducing network contention for the critical rendering path. This can be used with <a href="https://github.com/westonruter/script-fetchpriority-low">Script Fetch Priority Low</a> to improve performance even more. Only relevant for block themes.
  * Requires at least: 6.5
  * Requires PHP: 7.2
  * Version: 0.1.0
@@ -10,8 +10,8 @@
  * Author URI: https://weston.ruter.net/
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- * Update URI: https://gist.github.com/westonruter/5acba7cb904b546fad41f5ca741ecf31
- * Gist Plugin URI: https://gist.github.com/westonruter/5acba7cb904b546fad41f5ca741ecf31
+ * Update URI: https://github.com/westonruter/script-modules-in-footer
+ * GitHub Plugin URI: https://github.com/westonruter/script-modules-in-footer
  * Primary Branch: main
  *
  * @package ScriptModulesInFooter

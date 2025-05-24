@@ -1,19 +1,19 @@
-=== Script Modules in Footer ===
+# Script Modules in Footer #
 
-Contributors: westonruter
-Tested up to: 6.8
-Stable tag:   0.1.0
-License:      GPLv2 or later
-License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Contributors: [westonruter](https://profile.wordpress.org/westonruter)  
+Tested up to: 6.8  
+Stable tag:   0.1.0  
+License:      GPLv2 or later  
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html  
 Tags:         performance
 
 Prints script modules at wp_footer instead of at wp_head to improve performance by reducing network contention for the critical rendering path. Only relevant for block themes.
 
-== Description ==
+## Description ##
 
-Prints script modules at <code>wp_footer</code> instead of at <code>wp_head</code> to improve performance by reducing network contention for the critical rendering path. This can be used with [Script Fetch Priority Low](https://github.com/westonruter/script-modules-in-footer) to improve performance even more. This is only relevant for block themes.
+Prints script modules at `wp_footer` instead of at `wp_head` to improve performance by reducing network contention for the critical rendering path. This can be used with [Script Fetch Priority Low](https://github.com/westonruter/script-modules-in-footer) to improve performance even more. This is only relevant for block themes.
 
-== Installation ==
+## Installation ##
 
 1. Download the plugin [ZIP from GitHub](https://github.com/westonruter/script-modules-in-footer/archive/refs/heads/main.zip) or if you have a local clone of the repo, run `npm run plugin-zip`.
 2. Visit **Plugins > Add New Plugin** in the WordPress Admin.
@@ -23,8 +23,8 @@ Prints script modules at <code>wp_footer</code> instead of at <code>wp_head</cod
 
 You may also install and update via [Git Updater](https://git-updater.com/).
 
-== Changelog ==
+## Changelog ##
 
-= 0.1.0 =
+### 0.1.0 ###
 
 * Initial release.

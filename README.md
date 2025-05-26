@@ -8,7 +8,11 @@ Tags:         performance
 
 ## Description ##
 
-Prints script modules at `wp_footer` instead of at `wp_head` to improve performance by reducing network contention for the critical rendering path. This can be used with [Script Fetch Priority Low](https://github.com/westonruter/script-modules-in-footer) to improve performance even more. This is only relevant for block themes.
+Prints script modules at `wp_footer` instead of at `wp_head` to improve performance by reducing network contention for the critical rendering path. This can be used with [Script Fetch Priority Low](https://github.com/westonruter/script-fetchpriority-low) to improve performance even more. This is only relevant for block themes.
+
+This is a prototype for [#63486](https://core.trac.wordpress.org/ticket/63486) in WordPress core to test the performance impact.
+
+Important: This moves _all_ script modules to the footer. In WordPress core, script modules are used exclusively for the Interactivity API which uses server-side rendering, so they are safe to deprioritize by moving to the footer. However, if you have any script modules that are in the critical rendering path then you shouldn't use this plugin.
 
 ## Installation ##
 

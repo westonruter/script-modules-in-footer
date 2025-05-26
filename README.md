@@ -14,6 +14,8 @@ This is a prototype for [#63486](https://core.trac.wordpress.org/ticket/63486) i
 
 Important: This moves _all_ script modules to the footer. In WordPress core, script modules are used exclusively for the Interactivity API which uses server-side rendering, so they are safe to deprioritize by moving to the footer. However, if you have any script modules that are in the critical rendering path then you shouldn't use this plugin.
 
+Related plugin: [Script Fetch Priority Low](https://github.com/westonruter/script-fetchpriority-low)
+
 ## Installation ##
 
 1. Download the plugin [ZIP from GitHub](https://github.com/westonruter/script-modules-in-footer/archive/refs/heads/main.zip) or if you have a local clone of the repo, run `npm run plugin-zip`.

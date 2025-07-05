@@ -14,6 +14,8 @@ This is a prototype for [#63486](https://core.trac.wordpress.org/ticket/63486) i
 
 Important: This moves _all_ script modules to the footer. In WordPress core, script modules are used exclusively for the Interactivity API which uses server-side rendering, so they are safe to deprioritize by moving to the footer. However, if you have any script modules that are in the critical rendering path then you shouldn't use this plugin.
 
+See full writeup: [Improve LCP by Deprioritizing Script Modules from the Interactivity API](https://weston.ruter.net/2025/05/26/improve-lcp-by-deprioritizing-interactivity-api-script-modules/).
+
 Related plugin: [Script Fetch Priority Low](https://github.com/westonruter/script-fetchpriority-low)
 
 ## Installation ##
